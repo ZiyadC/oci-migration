@@ -2,7 +2,7 @@
 
 ## About this Workshop
 
-This hands-on lab provides users with step-by-step instructions for preparing their **Oracle Cloud Infrastructure (OCI) Tenancy**, including setting up a user group, adding a user and policies, as well as a compartment to house **Cloud Manager 15 using Marketplace** and associated resources. After provisioning and configuring Cloud Manager 15, users will **subscribe to the HCM deployment kit** to then create a **topology**, **environment template**, and **provision a PeopleSoft Environment**. 
+This hands-on lab provides users with step-by-step instructions for preparing their **Oracle Cloud Infrastructure (OCI) Tenancy**, including setting up a user group, adding a user and policies, as well as a compartment to house **Cloud Manager 16 using Marketplace** and associated resources. After provisioning and configuring Cloud Manager 16, users will **subscribe to the HCM deployment kit** to then create a **topology**, **environment template**, and **provision a PeopleSoft Environment**. 
 
 In addition to getting a PeopleSoft Environment up and running on Cloud Manager, users can then move on to the simple and interactive Labs (12-18). 
 These optional labs help familiarize users with the features of Cloud Manager and can be completed in any order.
@@ -104,3 +104,5 @@ The following terms are commonly employed in PeopleSoft cloud operations and use
 * **Contributors** - Edward Lawson, Master Principal Cloud Architect; Megha Gajbhiye, Principal Cloud Architect
 * **Last Updated By/Date** - Deepak Kumar M, Principal Cloud Architect, March 2023
 
+
+hello this is 
