@@ -164,11 +164,11 @@ Currently, we are signed in as an Administrator. Since we don't want Admins crea
         
     a) Name:
     ```
-    <copy>User01</copy>
+    <copy>User02</copy>
     ``` 
     b) Description:
     ```
-    <copy>User 01</copy>
+    <copy>User 02</copy>
     ``` 
 
     ![Confirm the screen to create the IAM user](./images/IAMuser.png "")
@@ -205,7 +205,7 @@ Currently, we are signed in as an Administrator. Since we don't want Admins crea
 
 8. Click **Oracle Cloud Infrastructure Direct Sign-In** 
     
-    This will expand fields for non-federated accounts. Enter the username **User01** and the password that you copied to a note in step 4.
+    This will expand fields for non-federated accounts. Enter the username **User02** and the password that you copied to a note in step 4.
 
     ![Login to the OCI console using the direct sign-in option](./images/newSignIn.png "")
 
@@ -220,9 +220,9 @@ Currently, we are signed in as an Administrator. Since we don't want Admins crea
     ![Set the password of your choice](./images/changePassword.png "")
 
 
-    You are now logged in as local user: **User01**
+    You are now logged in as local user: **User02**
 
-## Task 6: Setting API Keys for User01
+## Task 6: Setting API Keys for User02
 
 You will need a pair of SSH Keys, as well as a pair of API keys. 
 
