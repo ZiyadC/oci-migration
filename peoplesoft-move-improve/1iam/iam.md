@@ -237,7 +237,7 @@ Generate them yourself:
     * **API Signing keys**: ``api_key`` and ``api_key.pub``
     * **SSH key pair**: ``id_rsa`` and ``id_rsa.pub``
 
-2. Now, go back to the OCI console where you should still be logged in as **User01**. Click on the **profile button on top right**. Click on your user name - **User01**.
+2. Now, go back to the OCI console where you should still be logged in as **User02**. Click on the **profile button on top right**. Click on your user name - **User02**.
 
     ![Click on user profile from the top right of the OCI console](./images/api.png "")
 
