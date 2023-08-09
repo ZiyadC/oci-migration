@@ -1,4 +1,4 @@
-# Creating Identity and Access Management (IAM) Resources
+# Creating Identity and Access Management (IAM) Resources and OCI Vault
 
 ## Introduction
 This lab walks you through the steps to prepare your Oracle Cloud Infrastructure Tenancy
@@ -250,7 +250,9 @@ Generate them yourself:
     ![Paste the api public key created earlier](./images/sampleadd.png "")
 
 
+## Task 7: Setting  up OCI Vault
 
+You will need a pair of SSH Keys, as well as a pair of API keys. 
 You may now **proceed to the next lab.**
 
 
