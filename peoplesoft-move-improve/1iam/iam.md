@@ -245,15 +245,124 @@ Generate them yourself:
 
     ![select API keys from the left side of the user menu](./images/apisetup.png "")
 
-4. Click on **Paste public keys** and paste the contents of **api_key.pub**. Click on **Add**.  
+4. Click on **Paste public keys** and paste the contents of **api_key.public**. Click on **Add**.  
 
     ![Paste the api public key created earlier](./images/sampleadd.png "")
 
 
-## Task 7: Setting  up OCI Vault
+## Task 7: Setting  up OCI Vault, encryptions and Secrets
 
-You will need a pair of SSH Keys, as well as a pair of API keys. 
-You may now **proceed to the next lab.**
+You will need to create a vault.
+In this workshop we will create the vault in the Demo compartment.
+We will create Master Encryption key and vault secrets
+
+1. On the Oracle Cloud Infrastructure Console home page, click the three-line menu (Menu icon) and select **Identity and Security**, then select **Vault**.
+![select Vault from the Identity user menu](./images/createvault.png "")
+
+
+2. Select the Demo Compartment and click the create **Vault** button
+![create Vault in Demo Compartment](./images/vaultdemo.png "")
+
+
+3. Create in Compartment **Demo** and name the Vault **PSVault**
+![creation of vault PSVault](./images/psvault.png "")
+
+
+4. Create the Encryption Key 
+
+5. Select **Identity and Security --> Vault**
+![Select vault PSVault](./images/VaultEncrypt.png "")
+ 
+6. Select  **Master Encryption Keys**
+
+7. Select **Create Key**
+![Create encryption key](./images/masterencrypt.png "")
+
+8. Select Create in Compartment **Demo**
+
+ Use Protection Mode **HSM**
+
+ Name of Key **PSKey**
+
+ Key Shape Algorithm  **AES (Symmetric key used for Encrypt and Decrypt)**
+
+ Key Shape Length **256 bits**
+9. Select **Create Key**
+![Create encryption key PSKey](./images/PSKey.png "")
+
+
+10. Create Secrets.
+
+ Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
+
+
+11. Create Secret
+
+ Create the PeopleSoft Installation Secrets for deploying PeopleSoft Cloud Manager
+
+12. Create in Compartment **Demo**
+
+13. Name the Secret **PSConfig**
+
+14. Use the Encryption Key **PSKey** . This Encryption key was created at an earlier step.
+
+15. Secret Type Template **Plain-Text**
+
+16. Secret Content **Psft1234**
+
+17. Select **Create Secret** button.
+
+![Create PSConfig](./images/PSConfig.png "")
+
+
+**Create PeopleSoft DB SYS password**
+
+18. Create Secret
+
+19. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
+
+
+20. Create Secret in Compartment **Demo**
+
+21. Name of the Secret  **PSDBSys**
+
+22. Description **PeopleSoft DB Sys password**
+
+23. Encryption Key **PSKey**
+
+24. Secret Type Template **Plain-Text**
+
+25. Secret Contents **Psft1234#**
+
+26. Select **Create Secret** button
+
+![Create Database Secret](./images/PSDBSys.png "")
+
+ **We will create the Windows Password Secret** now as well.
+
+27. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
+
+ 
+28. Create Secret in **Demo** Compartment
+
+29. Name  **PSSWin**
+
+30. Description **PeopleSoft Windows Password**
+
+31. Encryption Key in Demo Compartment **PSKey**
+
+32. Secret Type Template **Plain-Text**
+
+33. Secret Contents **Psft1234#$Win**
+
+34. Select **Create Secret Button**
+![Create Windows Secret](./images/PSSWin.png "")
+
+ 
+ You may now **proceed to the next lab.**
 
 
 ## Acknowledgements
