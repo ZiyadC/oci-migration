@@ -31,25 +31,24 @@ In Labs 1-11, you will:
 * Create Identity and Access Management (IAM) Resources (Lab 1) 
 * Provision the PeopleSoft Cloud Manager using Marketplace (Lab 2)
 * FOR MAC USERS ONLY: Access Private Cloud Manager Instance via SSH and Log in via Browser (Lab 3)
-* Provisioning a Windows VM Compute in OCI (Lab 4)
-* FOR WINDOWS VM ONLY: Access Private Cloud Manager Instance via SSH and Log in via Browser (Lab 5)
-* Configure Cloud Manager Settings (Lab 6)
-* Set up the File System (Lab 7)
-* Subscribe to PeopleSoft Channels (Lab 8)
-* Review and Update a Topology (Lab 9)
-* Create a New Environment Template (Lab 10)
-* Deploy a PeopleSoft Environment (Lab 11)
+* FOR WINDOWS VM ONLY: Access Private Cloud Manager Instance via SSH and Log in via Browser (Lab 4)
+* Configure Cloud Manager Settings (Lab 5)
+* Set up the File System (Lab 6)
+* Subscribe to PeopleSoft Channels (Lab 7)
+* Review and Update a Topology (Lab 8)
+* Create a New Environment Template (Lab 9)
+* Deploy a PeopleSoft Environment (Lab 10)
 
-As aforementioned, Labs 1-11 cover the core purpose. 
-Labs 12-18 guide users through executing additional Cloud Manager features:
+As aforementioned, Labs 1-10 cover the core purpose. 
+Labs 11-17 guide users through executing additional Cloud Manager features:
 Once users have spun up a PeopleSoft environment, they can:
-* Clone an Existing PeopleSoft Environment (Lab 12) 
-* Backup an Existing PeopleSoft Environment (Lab 13) 
-* Patch an Existing PeopleSoft Environment (Lab 14)
-* Upgrade an Existing PeopleSoft Environment (Lab 15)
-* Create Governance Policies to Schedule Starting and Stopping a PeopleSoft Environment (Lab 16)
-* Create a PUM Connection from a Source PeopleSoft Environment to a Target Environment (Lab 17)
-* Refresh a PeopleSoft Environment from a Backup (Lab 18)
+* Clone an Existing PeopleSoft Environment (Lab 11) 
+* Backup an Existing PeopleSoft Environment (Lab 12) 
+* Patch an Existing PeopleSoft Environment (Lab 13)
+* Upgrade an Existing PeopleSoft Environment (Lab 14)
+* Create Governance Policies to Schedule Starting and Stopping a PeopleSoft Environment (Lab 15)
+* Create a PUM Connection from a Source PeopleSoft Environment to a Target Environment (Lab 16)
+* Refresh a PeopleSoft Environment from a Backup (Lab 17)
 
 ### Prerequisites
 * An OCI tenancy with administrator user access. 
