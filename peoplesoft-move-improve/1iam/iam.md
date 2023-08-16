@@ -361,7 +361,38 @@ We will create Master Encryption key and vault secrets
 34. Select **Create Secret Button**
 ![Create Windows Secret](./images/PSSWin.png "")
 
- 
+We need to capture the OCID for the three Secrets that we just created. These OCID entries will be the ones that will be added to the PeopleSoft Marketplace password entries.
+
+35. Select **Vault** from **Identity & Security** 
+![PSVault](./images/PSvault_settings.png "")
+
+36. Select the **Demo** Compartment
+
+37. Select Vault **PSVault**
+![PSVault selection](./images/PSVaultclick.png "")
+
+38. Select **Secrets**
+
+39. Select **Demo** in Compartment selection
+
+40. Select **Secrets** button.
+
+41. Select secret  **PSSWin** 
+
+42. Select the **three dots** on the right hand side and select **Copy OCID**
+
+43. Copy the OCIDs for **PSSWin**,  **PSDBSys**,  and **PSConfig** secrets
+
+![Secret OCIDs](./images/PSSecretOCID.png "")
+
+44. Save the secrets in a text editor for the Cloud Manager installation because that will be needed to be pasted into the deployment steps.
+
+The OCIDs should look like the following
+![OCIDs](./images/OCIDValues.png "")
+
+
+
+
  You may now **proceed to the next lab.**
 
 
