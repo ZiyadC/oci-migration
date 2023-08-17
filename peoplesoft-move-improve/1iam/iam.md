@@ -250,7 +250,7 @@ Generate them yourself:
     ![Paste the api public key created earlier](./images/sampleadd.png "")
 
 
-## Task 7: Setting  up OCI Vault, encryptions and Secrets
+## Task 7: Setting  up OCI Vault, Encryptions and Secrets
 
 You will need to create a vault.
 In this workshop we will create the vault in the Demo compartment.
