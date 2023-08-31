@@ -50,10 +50,10 @@ We need to enable the Bastion plugin on our PSFT CM compute instance.
 
     ![Navigate to the three-line menu on the top, click Identity & Security and then Bastion](./images/navbastion.png " ")
 
-2. Again, using the dropdowns on the left, select the **Demo** compartment. Then click on **cmbastion**
-    ![select demo compartment and then click on cmbastion ](./images/cmbastion.png " ")
+2. Again, using the dropdowns on the left, select the **Demo** compartment. Then click on **cmbastion16**
+    ![select demo compartment and then click on cmbastion16 ](./images/cmbastion16.png " ")
 
-3. This is Bastion Instance we created in the last lab. Click the blue button to **Create Session**.
+3. This is Bastion Instance we created in the last lab. Click the cmbastion16 server to  **Create Session**.
 
     * Session Type: **Managed SSH session** 
     * Session name:  can leave as is

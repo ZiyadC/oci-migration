@@ -291,7 +291,7 @@ We will create Master Encryption key and vault secrets
 ![Create encryption key PSKey](./images/PSKey.png "")
 
 
-10. Create Secrets.
+10. Create Secrets. We need to create 9 Secrets
 
  Select **Create Secret** 
 ![Create Secret](./images/CreateSecret.png "")
@@ -303,20 +303,20 @@ We will create Master Encryption key and vault secrets
 
 12. Create in Compartment **Demo**
 
-13. Name the Secret **PSConfig**
+13. Name the Secret **DomainPW2**
 
 14. Use the Encryption Key **PSKey** . This Encryption key was created at an earlier step.
 
 15. Secret Type Template **Plain-Text**
 
-16. Secret Content **Psft1234**
+16. Secret Content **PSoft1234**
 
 17. Select **Create Secret** button.
 
-![Create PSConfig](./images/PSConfig.png "")
+![Create Domain Password](./images/DomainPW2.png.png "")
 
 
-**Create PeopleSoft DB SYS password**
+**Create PeopleSoft Web Profile user password**
 
 18. Create Secret
 
@@ -326,70 +326,156 @@ We will create Master Encryption key and vault secrets
 
 20. Create Secret in Compartment **Demo**
 
-21. Name of the Secret  **PSDBSys**
+21. Name of the Secret  **WebprofilePW1**
 
-22. Description **PeopleSoft DB Sys password**
+22. Description **Web Profile user password**
 
 23. Encryption Key **PSKey**
 
 24. Secret Type Template **Plain-Text**
 
-25. Secret Contents **Psft1234#**
+25. Secret Contents **PSoft1234**
 
 26. Select **Create Secret** button
 
-![Create Database Secret](./images/PSDBSys.png "")
+![Create Web Profile Secret](./images/WebprofilePW1.png "")
 
- **We will create the Windows Password Secret** now as well.
+ **Create the Integration password** 
 
 27. Select **Create Secret** 
 ![Create Secret](./images/CreateSecret.png "")
 
- 
 28. Create Secret in **Demo** Compartment
 
-29. Name  **PSSWin**
+29. Name  **IntegrationPW1**
 
-30. Description **PeopleSoft Windows Password**
+30. Description **Integration Gateway User password**
 
 31. Encryption Key in Demo Compartment **PSKey**
 
 32. Secret Type Template **Plain-Text**
 
-33. Secret Contents **Psft1234#$Win**
+33. Secret Contents **PSoft1234**
 
 34. Select **Create Secret Button**
-![Create Windows Secret](./images/PSSWin.png "")
+![Create Integration Gateway User Password](./images/IntegrationPW1.png "")
 
-We need to capture the OCID for the three Secrets that we just created. These OCID entries will be the ones that will be added to the PeopleSoft Marketplace password entries.
+**Create Cloud Manager Admin Password**
+35. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-35. Select **Vault** from **Identity & Security** 
-![PSVault](./images/PSvault_settings.png "")
+36. Create in **Demo** Compartment
 
-36. Select the **Demo** Compartment
+37. Enter **CMAdminPW1** as the name of the secret.
 
-37. Select Vault **PSVault**
-![PSVault selection](./images/PSVaultclick.png "")
+38. Select **PSKey** as the encryption key.
 
-38. Select **Secrets**
+39. Select **Plain-Text** as the Secret type template.
 
-39. Select **Demo** in Compartment selection
+40. Enter **PSoft123** as the password
 
-40. Select **Secrets** button.
+41. Select **Create Secret**
+![Create CMAdminPW1](./images/CMAdminPW1.png)
 
-41. Select secret  **PSSWin** 
+**We will create the Windows Password** next.
 
-42. Select the **three dots** on the right hand side and select **Copy OCID**
+42. Create in Compartment **Demo** 
 
-43. Copy the OCIDs for **PSSWin**,  **PSDBSys**,  and **PSConfig** secrets
+43. Name of the secret **WinPW**
 
-![Secret OCIDs](./images/PSSecretOCID.png "")
+43. Description **Windows Password**
 
-44. Save the secrets in a text editor for the Cloud Manager installation because that will be needed to be pasted into the deployment steps.
+44. Encryption Key **PSKey**
 
-The OCIDs should look like the following
-![OCIDs](./images/OCIDValues.png "")
+45. Secret Type  Template **Plain-Text**
 
+46. Select **Create Secret** Button
+![Create Windows Password](./images/WinPW1.png)
+
+**Create the WebLogic Password**
+
+47. Create in Compartment **Demo**
+
+48. Provide a Name **WeblogicPW**
+
+49. Provide this description **WebLogic Admin Password**
+
+50. Encryption Key **PSKey**
+
+51. Secret Type template **Plain-text**
+
+52. Secret Contents type in **PSoft#1234**
+
+53. Select **Create Secret** Button
+![Create WebLogic Password](./images/WebLogicPW.png)
+
+
+**Create the DB Admin Secret**
+
+54. Create in **Demo** Compartment
+
+55. Name **DBAdminPW**
+
+56. Description **DB Admin Password**
+
+57. Encryption Key **PSKey**
+
+58. Secret Type Template **Plain-Text**
+
+59. Secret Contents **PSoft#1234**
+
+60. Select **Create Secret** Button.
+![Create Database Administrator Password](./images/DBAdminPW1.png)
+
+**DB Access Password**
+
+61. Create in Compartment **Demo**
+
+62. Name **DBAccessPW**
+
+63. Description **DB Access Password**
+
+64. Encryption Key **PSKey**
+
+65. Secret Type Template  **Plain-Text**
+
+66. Secret Contents **Psoft123**
+
+67. Select **Create Secret** Button
+![Create Database Access Password](./images/DBAccessPW1.png)
+
+**DB Connect Password**
+
+68. Create in **Demo** Compartment.
+
+69. Name **DBConnectPW**
+
+70. Description **Database Connection Password** 
+
+71. Encryption Key **PSKey**
+
+72. Secret Type Template **Plain-Text**
+
+73. Secret Contents **Psoft123**
+
+74. Select **Create Secret** Button.
+
+**Create the PeopleSoft Password**
+
+75. Create in Compartment **Demo**
+
+76. Name **PS**
+
+77. Description **PeopleSoft Additional Secret**
+
+78. Encryption Key **PSKey**
+
+79. Secret Type Template **Plain-Text**
+
+80. Secret Contents **PS**
+
+81. Select **Create Secret** Button.
+![Create PeopleSoft Access Password](./images/PS1.png)
 
 
 
