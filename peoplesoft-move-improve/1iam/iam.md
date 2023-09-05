@@ -313,7 +313,7 @@ We will create Master Encryption key and vault secrets
 
 17. Select **Create Secret** button.
 
-![Create Domain Password](./images/DomainPW2.png.png "")
+![Create Domain Password](./images/DomainPW2.png "")
 
 
 **Create PeopleSoft Web Profile user password**
@@ -377,19 +377,22 @@ We will create Master Encryption key and vault secrets
 41. Select **Create Secret**
 ![Create CMAdminPW1](./images/CMAdminPW1.png)
 
-**We will create the Windows Password** next.
+**Create the Windows Password** 
 
-42. Create in Compartment **Demo** 
+42. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-43. Name of the secret **WinPW**
+43. Create in Compartment **Demo** 
 
-43. Description **Windows Password**
+44. Name of the secret **WinPW**
 
-44. Encryption Key **PSKey**
+45. Description **Windows Password**
 
-45. Secret Type  Template **Plain-Text**
+46. Encryption Key **PSKey**
 
-46. Select **Create Secret** Button
+47. Secret Type  Template **Plain-Text**
+
+48. Select **Create Secret** Button
 ![Create Windows Password](./images/WinPW1.png)
 
 **Create the WebLogic Password**
@@ -398,83 +401,99 @@ We will create Master Encryption key and vault secrets
 
 48. Provide a Name **WeblogicPW**
 
-49. Provide this description **WebLogic Admin Password**
+49. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-50. Encryption Key **PSKey**
+50. Provide this description **WebLogic Admin Password**
 
-51. Secret Type template **Plain-text**
+51. Encryption Key **PSKey**
 
-52. Secret Contents type in **PSoft#1234**
+52. Secret Type template **Plain-text**
 
-53. Select **Create Secret** Button
+53. Secret Contents type in **PSoft#1234**
+
+54. Select **Create Secret** Button
 ![Create WebLogic Password](./images/WebLogicPW.png)
 
 
 **Create the DB Admin Secret**
 
-54. Create in **Demo** Compartment
+55. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-55. Name **DBAdminPW**
+56. Create in **Demo** Compartment
 
-56. Description **DB Admin Password**
+57. Name **DBAdminPW**
 
-57. Encryption Key **PSKey**
+58. Description **DB Admin Password**
 
-58. Secret Type Template **Plain-Text**
+59. Encryption Key **PSKey**
 
-59. Secret Contents **PSoft#1234**
+60. Secret Type Template **Plain-Text**
 
-60. Select **Create Secret** Button.
+61. Secret Contents **PSoft#1234**
+
+62. Select **Create Secret** Button.
 ![Create Database Administrator Password](./images/DBAdminPW1.png)
 
 **DB Access Password**
 
-61. Create in Compartment **Demo**
+63. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-62. Name **DBAccessPW**
+64. Create in Compartment **Demo**
 
-63. Description **DB Access Password**
+65. Name **DBAccessPW**
 
-64. Encryption Key **PSKey**
+66. Description **DB Access Password**
 
-65. Secret Type Template  **Plain-Text**
+67. Encryption Key **PSKey**
 
-66. Secret Contents **Psoft123**
+68. Secret Type Template  **Plain-Text**
 
-67. Select **Create Secret** Button
+69. Secret Contents **Psoft123**
+
+70. Select **Create Secret** Button
 ![Create Database Access Password](./images/DBAccessPW1.png)
 
 **DB Connect Password**
 
-68. Create in **Demo** Compartment.
+71. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-69. Name **DBConnectPW**
+72. Create in **Demo** Compartment.
 
-70. Description **Database Connection Password** 
+73. Name **DBConnectPW**
 
-71. Encryption Key **PSKey**
+74. Description **Database Connection Password** 
 
-72. Secret Type Template **Plain-Text**
+75. Encryption Key **PSKey**
 
-73. Secret Contents **Psoft123**
+76. Secret Type Template **Plain-Text**
 
-74. Select **Create Secret** Button.
+77. Secret Contents **Psoft123**
+
+78. Select **Create Secret** Button.
+![Create Secret](./images/DBConnectPW1.png "")
 
 **Create the PeopleSoft Password**
 
-75. Create in Compartment **Demo**
+79. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
 
-76. Name **PS**
+80. Create in Compartment **Demo**
 
-77. Description **PeopleSoft Additional Secret**
+81. Name **PS**
 
-78. Encryption Key **PSKey**
+82. Description **PeopleSoft Additional Secret**
 
-79. Secret Type Template **Plain-Text**
+83. Encryption Key **PSKey**
 
-80. Secret Contents **PS**
+84. Secret Type Template **Plain-Text**
 
-81. Select **Create Secret** Button.
+85. Secret Contents **PS**
+
+86. Select **Create Secret** Button.
 ![Create PeopleSoft Access Password](./images/PS1.png)
 
 
