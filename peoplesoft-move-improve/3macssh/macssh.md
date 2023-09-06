@@ -82,9 +82,8 @@ The session will remain active for 3 hours. After then, you will need to create 
 
 Remain off VPN.
 
-1. Open up **Terminal** and change directory to your psftKeys folder. (For example: ```cd ~/Downloads/psftKeys ```)
+1. Open up **Terminal** and change directory to your psftKeys folder. (For example: ```cd /Users/zchoudhu/Documents/GitHub/keyshore ```)
 2. Paste in edited SSH command from the previous task and run it.
-3. Type in **"yes"** to authenticate the host.
 
     All together, it should look like this:
     ![Make sure to provide all required input for ssh](./images/sshcommands.png "")
