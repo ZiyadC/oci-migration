@@ -299,7 +299,7 @@ We will create Master Encryption key and vault secrets
 
 11. Create Secret
 
- Create the PeopleSoft Installation Secrets for deploying PeopleSoft Cloud Manager
+**Create PeopleSoft Domain Secret**
 
 12. Create in Compartment **Demo**
 
@@ -497,8 +497,32 @@ We will create Master Encryption key and vault secrets
 ![Create PeopleSoft Access Password](./images/PS1.png)
 
 
+If you have MacOS Ventura you may run into SSH issues to access the LiveLabs PeopleSoft Deployment.
+We may have to make minor modifications to the /etc/ssh/ssh_config file.
 
- You may now **proceed to the next lab.**
+vi /etc/ssh/ssh_config 
+
+You will need to authenticate with the admin password
+
+scroll all the way to the bottom of the ssh_config file 
+
+and the add the following lines to the bottom of the ssh_config file
+
+**Hostkey Algorithms = +ssh-rsa** 
+
+**PublickeyAcceptedAlgorithms = +ssh-rsa**
+
+Go back up to the beginning of the file and uncomment and edit the following lines
+
+**ForwardAgent yes** 
+
+**ForwardX11 yes**
+
+![Edit config_ssh](./images/ssh_config.png)
+
+
+
+You may now **proceed to the next lab.**
 
 
 ## Acknowledgements

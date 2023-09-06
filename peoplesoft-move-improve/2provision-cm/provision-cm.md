@@ -63,30 +63,30 @@ The Create Stack, Configure Variables page includes a list of the parameters nee
 
 Each password has a requirement that can be found below each of the fields. For your convenience, you may use the passwords below as they satisfy the requirements. If you should use your own, please note them down somewhere you can refer back to.
 
-1. Enter following password OCID values:
+1. Enter following vault secrets:
 
     *Note*: They are all the same **except** DB Admin Password (in screenshot it is blue)
 
-    Attribute | Value
+    Attribute | Vault Secrets
     --------- | -----
     
     Database Name| CMPSDB
     Vault Compartment | Demo 
     Vault | PSVault
     Secrets Compartment | Demo 
-    DB Connect Password | Psoft123 
-    Db Admin Password | PSoft#1234
+    DB Connect Secret | DBConnectPW 
+    Db Admin Secret | DBAdminPW
     Access ID | SYSADM 
-    Db Access Password |  Psoft123
-    Cloud Manager Administrator Password | PSoft123
-    Integration Gateway User Password | PSoft1234
-    WebLogic Administrator User Password | PSoft#1234
-    Web Profile User Password | PSoft1234
-    Domain Connect Password | PSoft1234 
+    Db Access Secret |  DBAccessPW
+    Cloud Manager Administrator Secret | CMAdminPW1
+    Integration Gateway User Secret | IntegrationPW1
+    WebLogic Administrator User Secret | WeblogicPW 
+    Web Profile User Secret | WebprofilePW1
+    Domain Connect Secret | DomainPW2 
 
-    ![Provide the credentials for each attribute](./images/varscm2.png "")
+    ![Provide the credentials for each attribute](./images/Secrets1.png "")
 
-    ![Provide additional credentials for each attribute](./images/varscm3.png "")
+    ![Provide additional credentials for each attribute](./images/Secrets2.png "")
 
 ## Task 4: Enter My Oracle Support Credentials
 
