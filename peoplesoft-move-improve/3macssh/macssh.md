@@ -142,7 +142,7 @@ This screenshot shows that the connection closed and the ssh command had to be r
     * <**privateKey**> : with the name of your private key file, id_rsa 
     * <**localPort**> : with a port to access CM PIA URL through the bastion, which should be a value greater than 1024. I'm choosing 3000.
 
-    ![Make sure to enter the complete SSH command as shown](./images/editssh.png " ")
+    ![Make sure to enter the complete SSH command as shown](./images/Port_forwarding.png " ")
 
 The session will remain active for 3 hours. After then, you will need to create a new one the same way and generate a new command.
 
@@ -152,7 +152,7 @@ You need **Administrator Access** to your machine for this
 1. Open up **Terminal** and edit your hosts file
     ```
     <copy>
-    sudo vi /private/etc/hosts
+    sudo vi /etc/hosts
     </copy>
     ```
     You will then be prompted to enter in your password for your machine
@@ -172,7 +172,7 @@ You need **Administrator Access** to your machine for this
 
 1. Open up **Terminal** and change directory to your psftKeys folder. 
 2. Paste in edited SSH command from the Task #4 and run it.
-    ![Connect to the terminal with the ssh command](./images/portforwardcommand.png "")
+    ![Connect to the terminal with the ssh command](./images/Port_forwarding.png "")
 
 
 ## Task 7: Access Cloud Manager in Browser

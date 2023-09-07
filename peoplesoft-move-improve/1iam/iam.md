@@ -508,9 +508,9 @@ scroll all the way to the bottom of the ssh_config file
 
 and the add the following lines to the bottom of the ssh_config file
 
-**Hostkey Algorithms = +ssh-rsa** 
+**Hostkey Algorithms  +ssh-rsa** 
 
-**PublickeyAcceptedAlgorithms = +ssh-rsa**
+**PublickeyAcceptedAlgorithms  +ssh-rsa**
 
 Go back up to the beginning of the file and uncomment and edit the following lines
 

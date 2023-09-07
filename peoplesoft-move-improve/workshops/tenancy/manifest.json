@@ -22,12 +22,12 @@
             "filename": "../../2provision-cm/provision-cm.md"
           },
           {
-            "title": "Lab 3: FOR MAC USERS ONLY: Accessing Private Cloud Manager Instance via SSH and Logging in via Browser",
+            "title": "Lab 3: FOR MAC USERS ONLY: SSH for MAC Users and Logging in via Browser",
             "filename": "../../3macssh/macssh.md"
           },
           
           {
-            "title": "Lab 4: FOR WINDOWS VM ONLY: Accessing Private Cloud Manager Instance via SSH and Logging in via Browser",
+            "title": "Lab 4: FOR WINDOWS VM ONLY: SSH for Windows Users and Logging in via Browser",
             "filename": "../../4winssh/winssh.md"
           },
           {

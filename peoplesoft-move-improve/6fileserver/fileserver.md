@@ -84,7 +84,7 @@ Sign back into the OCI Console if not already logged in.
 
     Click **Create**.
     
-3. Refresh the page and watch the Fss Status change to: **Initiating File Storage Service**
+3. Refresh the page and watch the Fss Status change to: **Creating File Storage Service**
     
     ![Refresh the page and watch the Fss Status change to: Initiating File Storage Service](./images/initiating.png " ")
 

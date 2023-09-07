@@ -43,8 +43,8 @@ Go back to the **Cloud Manager Dashboard** > **Cloud Manager Settings**.
 
     * For Windows image, as per your home region, please select the OCID of the vanilla custom image from this [website](https://docs.oracle.com/en-us/iaas/images/image/943bdefa-8858-4b37-98e0-fd710c4aea1e/).
 
-    For example, in this lab, we selected our Availability Domain to be us-ashburn-1 so our OCID is:    
-    **ocid1.image.oc1.iad.aaaaaaaa74rl4tzxblzk2sqm43k62srh6bv4hbxkkewlbyar6ximerilowyq**
+    For example, in this lab, we selected our Home Region to be us-phoenix-1 so our OCID is:    
+    **ocid1.image.oc3.us-gov-phoenix-1.aaaaaaaa7qoxo5w7hsmp2seaquqf7nfloitaf3g7yasuul26yctxg3axu7ia**
  
     ![Update the image OCID value](./images/systemimages.png "")
 
