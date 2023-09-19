@@ -26,33 +26,25 @@ In this lab, you will:
 
     ![Click Create Environment button](./images/clickenv.png "")
 
-2. Provide a unique Environment Name - **HCMFT**. Select the Template that was created in previous section – **PUMFT**. Click **yes** for **Pause after infra creation**.  
+2. Provide a unique Environment Name - **HCMFT**.
+
+3. Description **HCM 9.2 with Full Tier. Linux and Windows nodes**
+
+
+
+ Select the Template that was created in previous section – **PUMFT**. Click **yes** for **Pause after infra creation**.  
 
     ![Provide a unique Environment Name and select the Template that was created in previous section](./images/newenvinfo.png "")
 
 3. Expand **Environment Attributes -> Full Tier -> Credentials**
 
-    Give the following values to the fields:
+    Entries should already be pre-populated:
 
-    No. | Full Tier | Credentials
-    --- | --------- | -----------
-    2 | Database Operator Password | Psft1234
-    4 | Database Access Password | Psft1234
-    6 | Weblogic Administrator Password | Psft1234
-    7 | Database Administrator Password | **Psft1234#**
-    9 | Database Connect Password | Psft1234
-    11 | Gateway Administrator Password | Psft1234
-    12 | Web Profile Password for user PTWEBSERVER | Psft1234
-
-
-
-  (All are the same except Database Administrator Password)
-
-    ![Enter the credentials as follow](./images/credentials.png "")
+  ![Check and validate the credentials](./images/credentials.png "")
 
 4. Expand PeopleSoft Client -> **Credentials**
 
-  Enter the password: Psft12345678#
+  Windows password shoul have come across from the vault **PSVault**
     ![Enter the password for the windows environment](./images/winenvpass.png "")
 
 5. Scroll up and click **Done** on the top right to begin the environment creation process. 
@@ -102,7 +94,7 @@ Provisioning takes about 90 minutes. You can monitor throughout this time.
     Next, add to your hosts file like we did previously
     ```
     <copy>
-    127.0.0.1  hcmft-fulltierlinux-1.ft.psftvcn.oraclevcn.com
+    127.0.0.1  hcmft-fulltierlinux-1.ft.psftcm.oraclevcn.com
     </copy>
     ```
     Run the SSH port forward command in  Terminal or Git Bash, selecting a new port. (This time, I used 5000)
@@ -115,7 +107,7 @@ Provisioning takes about 90 minutes. You can monitor throughout this time.
   ```
   <copy>
   Username : PS    
-  Password: Psft1234
+  Password: PS
   </copy>
   ```
   ![Sign in using the following credentials](./images/hcmlogin.png "")

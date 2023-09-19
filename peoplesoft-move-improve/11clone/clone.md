@@ -27,8 +27,8 @@ In this lab you will:
 3.  Refresh the page. You should now see the **WorkshopClone** Environment. This environment will take a few minutes to provision. Click the down arrow and then click **Details**.
     ![Click the down arrow and then click details](./images/initiating.png "")
 
-    Note on the **Environment Details** page, under **Status** you will see a red exclamation point. This will remain until the entire environment has successfully provisioned. Once provisioned, the status will change to a green check mark.
-    ![ote on the Environment Details page, under Status you will see a red exclamation point](./images/red.png "")
+    Note on the **Environment Details** page, under **Status** you will see a orange exclamation point. This will remain until the entire environment has successfully provisioned. Once provisioned, the status will change to a green check mark.
+    ![ote on the Environment Details page, under Status you will see a red exclamation point](./images/Cloneprogress.png "")
     
     On the side menu click **Logs**. From here you can monitor the status of your clone environment.
     ![On the side menu click Logs. From here you can monitor the status of your clone environment.](./images/clonestat.png "")

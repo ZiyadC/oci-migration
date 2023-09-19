@@ -18,27 +18,27 @@ In this lab you will:
 1.  Navigate to **Cloud Manager Dashboard** > **Repository**. 
     ![Navigate to Cloud Manager Dashboard and then Repository](./images/repo.png "")
 
-2.  On **Downloaded Subscriptions**, switch to **Unsubscribed**. Scroll down to find **Tools\_859\_Linux**, click the **V** arrow and then **Subscribe**
-    ![On Downloaded Subscriptions, switch to Unsubscribed. Scroll down to find Tools_859_Linux, click the arrow and then Subscribe](./images/lin59subscribe.png "")
+2.  On **Downloaded Subscriptions**, switch to **Unsubscribed**. Scroll down to find **Tools\_860\_Linux**, click the **V** arrow and then **Subscribe**
+    ![On Downloaded Subscriptions, switch to Unsubscribed. Scroll down to find Tools_859_Linux, click the arrow and then Subscribe](./images/lin60subscrib.png "")
 
 
 3. Enter **01** for the minimum patch number, and click **OK**
-    ![Enter 01 for the minimum patch number, and click OK](./images/lin59number.png "")
+    ![Enter 01 for the minimum patch number, and click OK](./images/lin60numbe.png "")
 
 4. Repeat the same steps for **Tools\_859\_Windows**
-    ![Repeat the same steps for Tools_859_Windows](./images/win59subscribe.png "")
-    ![Repeat the same steps for Tools_859_Windows](./images/win59number.png "")
+    ![Repeat the same steps for Tools_859_Windows](./images/win60subscribe.png "")
+    ![Repeat the same steps for Tools_859_Windows](./images/win60number.png "")
 
 ## Task 2: Monitor Subscription Progress
 
-1. To monitor progress, you can go to **Download History**, select **Tools\_859\_Linux** and **Tools\_859\_Windows** to see which packages are in progress and which have been completed.
+1. To monitor progress, you can go to **Download History**, select **Tools\_860\_Linux** and **Tools\_860\_Windows** to see which packages are in progress and which have been completed.
 
-    ![To monitor progress, you can go to Download History, select Tools_859_Linux and Tools_859_Windows to see which packages are in progress and which have been completed.](./images/patchlist59.png "")
+    ![To monitor progress, you can go to Download History, select Tools_860_Linux and Tools_860_Windows to see which packages are in progress and which have been completed.](./images/patchlist60.png "")
 2. You can then look at each patch progress status under **Logs**. Select the **Channel Name**, **Log File**, add **Number of Lines to Display**, and click **Fetch Logs**.
-    ![You can then look at each patch progress status under Logs. Select the Channel Name, Log File, add Number of Lines to Display, and click Fetch Logs.](./images/logs59.png "")
+    ![You can then look at each patch progress status under Logs. Select the Channel Name, Log File, add Number of Lines to Display, and click Fetch Logs.](./images/log60.png "")
 
 3. Once you see this, you may apply the patches to your environment:
-    ![Once you see this, you may apply the patches to your environment](./images/859done.png "")
+    ![Once you see this, you may apply the patches to your environment](./images/860done.png "")
 
 ## Task 3: Apply Upgrade to Environment
 
@@ -47,14 +47,10 @@ In this lab you will:
 
 2. Find the environment you would like to patch, click **V** and **Details**
     ![Find the environment you would like to patch, click arrow and Details](./images/details.png "")
-3. Navigate to **Upgrade PeopleTools**. In the drop down, select the **8.59.01**, and then click **Update**
-    ![Navigate to Upgrade PeopleTools. In the drop down, select the 8.59.01, and then click Update](./images/upgrade59.png "")
-    - Click **Yes**
-    ![click yes to start the upgrade](./images/yes59.png "")
-4. You can track the status below 
-    ![You can track the status below](./images/status59.png "")
-
-    - When it's done, it will say **Completed**
+3. Navigate to **Upgrade PeopleTools**. In the drop down, there is nothing to select because we are already at the latest version.
+    ![Navigate to Upgrade PeopleTools. In the drop down, there is no selection, and then click Update](./images/upgrade60.png "")
+   
+   
 
 
 You may now **proceed to the next lab.**

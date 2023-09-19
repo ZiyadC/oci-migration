@@ -25,7 +25,46 @@ We have already provisioned Cloud Manager in a private subnet (cm) and the Basti
 - A PeopleSoft Cloud Manager Instance
 - A downloaded PeopleSoft Image
 
-## Task 1: Creating a New Environment Template and General Details
+## Task 1: Creating the HCMVault password group. 
+Navigate to Cloud Manager Dashboard ->  **My Settings**
+![Dashbaord My Settings](./images/Mysettings.png "")
+
+Select **Password Group**
+
+Select **Add New Group**
+![Password Group](./images/Password_Group.png "")
+
+
+Create Group Name **HCMVault**
+
+Description **PS HCM Vault Configuration**
+
+Compartment of Vault **Demo**
+
+Vault Name **PSVault**
+
+Database Access Password **DBAccessPW**
+
+Database Administrator Password **DBAdminPW**
+
+Database Connect Password **DBConnectPW**
+
+Database Operator Password **PS**
+
+Gateway Administrator Password **IntegrationPW1**
+
+
+![HCMVault Settings](./images/HCMVaultSettings.png "")
+
+Web Profile Password for user PTWEBSERVER  **WewbprofilePW1**
+
+Weblogic Adminstration Password  **WeblogicPW**
+
+Windows Administrator Password **WinPW**
+
+Select **Save**
+![HCMVault additional Settings](./images/HCMVaultsettings2.png "")
+## Task 2: Creating a New Environment Template and General Details
 
 Navigate to Cloud Manager Dashboard -> **Environment Template**
     ![Navigate to Cloud Manager Dashboard  and then Environment Template](./images/dashtemp.png "")
@@ -38,39 +77,42 @@ Click **Add New Template** button.
     - Description **HCM 9.2 FT: Linux and Windows node**
     ![Provide template name and description](./images/tempnamedescription.png "")
 
-2. For Select PeopleSoft Image, click the **search icon**. Do NOT type anything. If your DPK was downloaded properly, it should appear in the Search Results. If you can't see it yet, please wait and refresh the page after awhile. Since we subscribed to the HCM channel in Lab 7, we see **PEOPLESOFT HCM UPDATE IMAGE 9.2.40 - NATIVE OS** 
+2. For Select PeopleSoft Image, click the **search icon**. Do NOT type anything. If your DPK was downloaded properly, it should appear in the Search Results. If you can't see it yet, please wait and refresh the page after awhile. Since we subscribed to the HCM channel in Lab 7, we see **PEOPLESOFT HCM UPDATE IMAGE 9.2.046 - NATIVE OS** 
     ![Search the PeopleSoft image from the search icon](./images/imagesearch.png "")
     ![The PSFT image results appear on screen](./images/hcmsearch.png "")
 
   Click **Next** when you have this:
     ![Enter all information and click next ](./images/tempname.png "")
 
-## Task 2: Select Topology
+## Task 3: Select Topology
 
 1. Click the **search icon** and select **PUM Fulltier** for the topology
 2. Expand **Custom Attributes** and select **PUM Fulltier** again from the drop down.
+3. Select **HCMVault** from the Password group drop down.
 3. Click on **Edit Custom Attributes**
     ![Select the PUM Fulltier and click on edit custom attributes](./images/selecttopv2.png "")
 4. Fill in the Region and Availability Domains as follows:
-    * Region: **us-ashburn-1**
-    * Primary Availability Domain: **________-AD-1** (Depends on the AD you selected. In this case, we are using Ashburn)
+    * Region: **us-phoenix-1**
+    * Primary Availability Domain: **________-AD-1** (Depends on the AD you selected. In this case, we are using Phoenix)
     * Default Compartment: **Demo**
-    * Default Virtual Cloud Network: **PSFTVCN(Demo)** 
+    * Default Virtual Cloud Network: **psftcm(Demo)** 
     
     ![Provide all the information for Region and AD](./images/regioninfo.png "")
 
 5. Now, expand **Full Tier** > **General Settings**
-    * Line 6- Database Name: **MYPUMDB**
-    * Line 9- Database Operator Id: **PS**
-    ![Enter the Database name and operator id](./images/gensettings.png "")
+    * Line 8-  Database Operator id: **PS**
+    * Line 13- Database Name: **MYPUMDB** 
+    ![General Settings](./images/gensettings.png "")
 
 6. Now, expand **Full Tier** > **Network Settings**
     * Compartment: **Demo**
+    * Virtual Cloud Network: **psftcm(Demo)**
     * Subnet For Primary Instance: **ft**
     ![Under the demo compartment select the subnet ft](./images/ftnetwork.png "")
 
 7. Now, expand **PeopleSoft Client** > **Network Settings**
     * Compartment: **Demo**
+    * Virtual Cloud Network **psftcm(Demo)**
     * Subnet For Primary Instance: **win**
     ![Under the demo compartment select the subnet win](./images/winnetwork.png "")
 
@@ -82,7 +124,7 @@ Click **Add New Template** button.
 
 Click **Next**
 
-## Task 3: Security and Policies
+## Task 4: Security and Policies
 
 Now, we'll select the Zone and Role Names
 
@@ -104,7 +146,7 @@ When you see this, click **Next**
   ![Click on next after verifying the values](./images/17next.png "")
 
 
-## Task 4: Summary
+## Task 5: Summary
 
 Review the Environment Template and click **Submit**
     ![Click on submit after verifying the values](./images/submit.png "")

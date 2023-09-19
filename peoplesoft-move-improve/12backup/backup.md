@@ -25,17 +25,13 @@ In this lab you will:
     Click **Yes** when it asks if you want to proceed with backup operation.
     ![Click Yes when it asks if you want to proceed with backup operation.](./images/backupyes.png "")
 
-2.  This backup will take a few minutes to complete. To check the status of the backup click the down arrow on your environment (**HCMFT**) and then click **Details**.
+2.  This backup will take a few minutes to complete. To check the status of the backup click the down arrow on your environment (**HCMFT**) and then click **Backup and Restore**.
     ![To check the status of the backup click the down arrow on your environment (HCMFT) and then click Details.](./images/hcmdetails.png "")
 
-    On the side menu select **Provision Task Status**. You will then be able to see the start time and status of your backup. If under **Status** you see a gear icon (like the picture below), this means that the backup is still in progress.
-    ![On the side menu select Provision Task Status. You will then be able to see the start time and status of your backup](./images/gears.png "")
+    On the side menu select **Backup and Restore**. You will then be able to see the start time and status of your backup. If under **Backup Status** you see Completed message this means that the backup is completed.
+    ![On the side menu select Backup and Restore. You will then be able to see the start time and status of your backup](./images/backupcomplete.png "")
     
-    You can also select **Logs** on the side menu and follow along from there as well.
-    ![You can also select Logs on the side menu and follow along from there as well](./images/logs.png "")
-
-    Once **Status** changes to a green check mark (like the picture below) you can continue on with this lab. 
-    ![Once Status changes to a green check mark (like the picture below) you can continue on with this lab.](./images/green.png "")   
+    
 
 ## Task 2: Restoring an Environment
 
@@ -43,7 +39,7 @@ In this lab you will:
     ![On the environment that we just created (HCMFT) click the down arrow and then click Backup and Restore.](./images/backuprestore.png "")
 
     Here we will see the backup that we just took. Make sure the backup status is **Completed**. Click the checkbox next to **HCMFTBACKUP** and then click **Restore**
-    ![Here we will see the backup that we just took. Make sure the backup status is Completed. Click the checkbox next to HCMFTBACKUP and then click Restore](./images/backupcomplete.png "")
+    ![Here we will see the backup that we just took. Make sure the backup status is Completed. Click the checkbox next to HCMFTBACKUP and then click Restore](./images/restore.png"")
 
     Click **Yes** when it asks if you want to proceed.
     ![Click Yes when it asks if you want to proceed.](./images/hcmpopup.png "")
