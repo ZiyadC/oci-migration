@@ -54,7 +54,7 @@ In order to refresh an environment you will need an environment template that is
 
 2.  On the General Details page:
     * Give the template a name such as **RefreshDBaaS** and enter a description
-    * Click on the search icon next to PeopleSoft Image and select **PEOPLESOFT HCM UPDATE IMAGE 9.2.038 - NATIVE OS** 
+    * Click on the search icon next to PeopleSoft Image and select **PEOPLESOFT HCM UPDATE IMAGE 9.2.046 - NATIVE OS** 
     * Click **Next**
     ![Enter the details as show and click next](./images/tempname.png "")
 

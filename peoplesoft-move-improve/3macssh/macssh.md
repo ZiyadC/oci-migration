@@ -102,8 +102,8 @@ Remain off VPN.
     <copy>
 		The PeopleSoft Environment Setup Process Ended.
 		CM installed successfully
-		Cloud Manager PIA URL: http://psftcm.cm.psftvcn.oraclevcn.com:8000 
-		Cloud Manager PIA SSL URL: https://psftcm.cm.psftvcn.oraclevcn.com:8443
+		Cloud Manager PIA URL: http://psftcm.cm.psftcm.oraclevcn.com:8000 
+		Cloud Manager PIA SSL URL: https://psftcm.cm.psftcm.oraclevcn.com:8443
     </copy>
     
     ```
