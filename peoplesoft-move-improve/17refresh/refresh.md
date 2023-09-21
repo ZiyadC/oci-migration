@@ -69,7 +69,7 @@ In order to refresh an environment you will need an environment template that is
         * Subnet For Primary Instance: **mt**
     * Expand **DB Systems** > **General Settings** and make the following changes:
         * Database Operator Id: **PS**
-        * Database Name: **HCMDBAAS**
+        
     ![Enter DB name and operator id](./images/dbps.png "")
     * Expand **DB Systems** > **Network Settings** and select the following:
         * Subnet For Primary Instance: **db**
@@ -99,11 +99,9 @@ In order to refresh an environment you will need an environment created from a t
 2.  Provide a unique environment name such as **RefreshDB** and enter a description. For Template Name select the template we created in the previous step: **RefreshDBaaS**. 
     ![Provide a unique environment name such as RefreshDB and enter a description. For Template Name select the template we created in the previous step: RefreshDBaaS.](./images/envcreate.png "")
 
-3.  Expand **Environment Attributes** > **Middle Tier**. Assign the following values to each field:
-    * Weblogic Administrator Password: **Psft1234**
-    * Gateway Administrator Password: **Psft1234**
-    * Web Profile Password for user PTWEBSERVER: **Psft1234**
-    ![Assign the following values as shown](./images/midcred.png "")
+3.  Expand **Environment Attributes** > **Middle Tier**. All the appropriate values should be already entered:
+    
+    ![All values should be pre-entered](./images/midcred.png "")
 
     Expand **Environment Attributes** > **DB Systems**. Assign the following values to each field:
     * Database Administrator Password: **Psft1234##**

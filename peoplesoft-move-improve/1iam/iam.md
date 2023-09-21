@@ -291,7 +291,7 @@ We will create Master Encryption key and vault secrets
 ![Create encryption key PSKey](./images/PSKey.png "")
 
 
-10. Create Secrets. We need to create 9 Secrets
+10. Create Secrets. We need to create 11 Secrets
 
  Select **Create Secret** 
 ![Create Secret](./images/CreateSecret.png "")
@@ -495,6 +495,46 @@ We will create Master Encryption key and vault secrets
 
 86. Select **Create Secret** Button.
 ![Create PeopleSoft Access Password](./images/PS1.png)
+
+**Create SearchProxy Password**
+
+87. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
+
+88. Create in Compartment **Demo**
+
+89. Name **SearchProxy**
+
+90. Description **PeopleSoft Additional Secret**
+
+91. Encryption Key **PSKey**
+
+92. Secret Type Template **Plain-Text**
+
+93. Secret Contents **Proxy$$1234**
+
+94. Create SearchProxy Secret
+![Create SearchProxy](./images/searchproxy.png "")
+
+**Create SearchProxy Password**
+
+95. Select **Create Secret** 
+![Create Secret](./images/CreateSecret.png "")
+
+88. Create in Compartment **Demo**
+
+89. Name **ElasticSearch**
+
+90. Description **PeopleSoft Additional Secret**
+
+91. Encryption Key **PSKey**
+
+92. Secret Type Template **Plain-Text**
+
+93. Secret Contents **Elastic1234##One**
+
+94. Create SearchProxy Secret
+![Create SearchProxy](./images/elasticsearch.png "")
 
 
 If you have MacOS Ventura you may run into SSH issues to access the LiveLabs PeopleSoft Deployment.

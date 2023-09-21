@@ -60,7 +60,7 @@ Before creating any policies we will create a policy group. Policy groups are op
 3.  You can also view all of these policies directly from your environment. Navigate to **Dashboard** > **Environments**. On **HCMFT** (or whichever environment you created the previous policies for) click the down arrow and then **Details**
     ![You can also view all of these policies directly from your environment.Click the down arrow and then Details](./images/workshopdetail.png "")
 
-4.  On the side menu select **Policies**. Here you will be able to see all the policies we recently created for this environment.
+4.  On the side menu select **Policies**. Here you will be able to import all the policies we recently created for this environment.
     ![On the side menu select Policies. Here you will be able to see all the policies we recently created for this environment.](./images/addpolicy.png "")
 
 ## Task 3: Executing Policies
