@@ -55,7 +55,7 @@ We need to enable the Bastion plugin on our PSFT CM compute instance.
     ![Navigate to the three-line menu on the top, click Identity & Security and then Bastion](./images/navbastion.png " ")
 
 2. Again, using the dropdowns on the left, select the **Demo** compartment. Then click on **cmbastion**
-    ![select demo compartment and then click on cmbastion](./images/cmbastion.png " ")
+    ![select demo compartment and then click on cmbastion](./images/cmbastion16.png " ")
 
 3. This is Bastion Instance we created in the last lab. Click the blue button to **Create Session**.
 
@@ -174,7 +174,7 @@ The session will remain active for 3 hours. After then, you will need to create 
     ![Navigate to the three-line menu on the top, click Identity & Security and then Bastion](./images/navbastion.png " ")
 
 2. Again, using the dropdowns on the left, select the **Demo** compartment. Then click on **cmbastion**
-    ![select demo compartment and then click on cmbastion](./images/cmbastion.png " ")
+    ![select demo compartment and then click on cmbastion](./images/cmbastion16.png " ")
 
 3. This is Bastion Instance we created in the last lab. Click the blue button to **Create Session**.
 
@@ -252,7 +252,7 @@ You need **Administrator Access** to your machine for this. We have that since w
     ```
      ![Enter the user name and password](./images/login.png "")
     
-You have now signed into Cloud Manager 15.
+You have now signed into Cloud Manager 16.
 
 You may now **proceed to the next lab.**
 
@@ -260,6 +260,6 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 * **Authors** - Deepak Kumar M, Principal Cloud Architect; Sara Lipowsky, Cloud Engineer
 * **Contributors** - Edward Lawson, Master Principal Cloud Architect; Megha Gajbhiye, Principal Cloud Architect
-* **Last Updated By/Date** - Deepak Kumar M, Principal Cloud Architect, March 2023
+* **Last Updated By/Date** - Deepak Kumar M, Principal Cloud Architect, September 2023
 
 
