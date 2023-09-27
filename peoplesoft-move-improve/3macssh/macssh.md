@@ -205,6 +205,6 @@ You have now signed into Cloud Manager 15.
 ## Acknowledgements
 * **Authors** - Deepak Kumar M, Principal Cloud Architect; Sara Lipowsky, Cloud Engineer
 * **Contributors** - Edward Lawson, Master Principal Cloud Architect; Megha Gajbhiye, Principal Cloud Architect
-* **Last Updated By/Date** - Deepak Kumar M, Principal Cloud Architect, March 2023
+* **Last Updated By/Date** - Ziyad Choudhury, Principal Cloud Architect, August 2023
 
 
