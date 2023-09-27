@@ -25,7 +25,7 @@ In this lab you will:
 3. Enter **01** for the minimum patch number, and click **OK**
     ![Enter 01 for the minimum patch number, and click OK](./images/lin60numbe.png "")
 
-4. Repeat the same steps for **Tools\_859\_Windows**
+4. Repeat the same steps for **Tools\_860\_Windows**
     ![Repeat the same steps for Tools_859_Windows](./images/win60subscribe.png "")
     ![Repeat the same steps for Tools_859_Windows](./images/win60number.png "")
 
