@@ -24,6 +24,9 @@ Create a bastion host in this configuration, and then access all the servers in 
 
   ![PeopleSoft Architecture deployment using Cloud Manager](./images/architecture.png "")
 
+  ![PeopleSoft Evolution](./images/evolution.png "")
+
+
 ### Objectives
 
 In Labs 1-11, you will:
@@ -62,6 +65,8 @@ Once users have spun up a PeopleSoft environment, they can:
     * Git Bash [https://git-scm.com/download/win](https://git-scm.com/download/win)
     * Putty [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). In the Package Files section, click on an installer depending on 32/64 bits.
     * Remote Desktop for Mac [https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+    * PeopleSoft Cloud Manager Get Started: [https://docs.oracle.com/en/applications/peoplesoft/cloud-manager/index.html](https://docs.oracle.com/en/applications/peoplesoft/cloud-manager/index.html)
+
 
 
 
