@@ -24,6 +24,8 @@ Create a bastion host in this configuration, and then access all the servers in 
 
   ![PeopleSoft Architecture deployment using Cloud Manager](./images/architecture.png "")
 
+**Cloud Manager Evolution**
+
   ![PeopleSoft Evolution](./images/evolution.png "")
 
 
