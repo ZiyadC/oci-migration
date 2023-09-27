@@ -44,7 +44,7 @@ In this lab, you will:
 
 4. Expand PeopleSoft Client -> **Credentials**
 
-  Windows password shoul have come across from the vault **PSVault**
+  Windows password should have come across from the vault **PSVault**
     ![Enter the password for the windows environment](./images/winenvpass.png "")
 
 5. Scroll up and click **Done** on the top right to begin the environment creation process. 
