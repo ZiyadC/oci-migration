@@ -80,7 +80,10 @@
             "title": "Lab 16: Selective Adoption",
             "filename": "../../16selective-adoption/adoption.md"
           },
-          
+          {
+            "title": "Lab 17: Refreshing an Environment",
+            "filename": "../../17refresh/refresh.md"
+          }, 
       {
           "title": "Need Help?",
           "description": "Solutions to Common Problems and Directions for Receiving Live Help",

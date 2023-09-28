@@ -139,7 +139,7 @@ In order to refresh an environment you will need an environment created from a t
     ![Click the down arrow on your source environment (RefreshDB) and then click Clone Environment.](./images/clone.png "")
 
     Provide a unique environment name such as **TestRefresh**. Leave everything else as default and then click **Clone**.
-    ![Provide a unique environment name such as TestRefresh. Leave everything else as default and then click Clone](./images/testrefresh.png "")  
+    ![Provide a unique environment name such as TestRefresh. Leave everything else as default and then click Clone](./images/clonetest.png "")  
 
 2.  Once the source and target environments are both running, we can then create
     a backup from the source environment. We will use this backup to refresh the target environment.
