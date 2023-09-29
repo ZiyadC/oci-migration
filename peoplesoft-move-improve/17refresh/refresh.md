@@ -104,7 +104,7 @@ In order to refresh an environment you will need an environment created from a t
     ![All values should be pre-entered](./images/midcred.png "")
 
     Expand **Environment Attributes** > **DB Systems**. Assign the following values to each field:
-    * Database Administrator Password: **Psft1234##**
+    * Database Administrator Password: **PaSSw##123456**
     * Database Connect Password: **Psft1234**
     * Database Access Password: **Psft1234**
     * Database Operator Password: **Psft1234**
