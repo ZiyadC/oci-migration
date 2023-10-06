@@ -10,7 +10,7 @@ In this lab you will:
 * Create a PUM Connection from one PeopleSoft environment to another
 
 ### Prerequisites
-- Two PeopleSoft environments up and running. One that will be used as a source environment and one that will be used as a target environment. The source environment must have a newer image version than the target environment.
+- Two PeopleSoft environments should be up and running. One that will be used as a source environment which is your PUM and one that will be used as a target environment. The source environment must have a newer image version than the target environment.
 
 ## Task 1: Create PUM Connection
 
